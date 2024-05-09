@@ -23,7 +23,7 @@ block_offset =  pygame.Vector2(columns // 2, -1)
 
 #color
 def colors():
-    background = '#090979'
+    background = '#0a3458'
     grey = '#8c8c8c'
     white = "#ffffff"
     black = "#000000"

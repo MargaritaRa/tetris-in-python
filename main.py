@@ -9,6 +9,7 @@ def main():
     clock = pygame.time.Clock()
     game_update = pygame.USEREVENT
     pygame.time.set_timer(game_update, update_start_speed)
+    pygame.display.set_caption("Tetris")
     score = Score()
 
     class player_score:
